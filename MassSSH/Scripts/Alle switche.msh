@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Scripts>
+    <Script>
+      <Name>Get Serialnumber</Name>
+      <Hosts>
+        <Host>
+          <Name>COC</Name>
+          <Address>10.255.10.5</Address>
+        </Host>
+        <Host>
+          <Name>Cis Center</Name>
+          <Address>10.255.10.2</Address>
+        </Host>
+        <Host>
+          <Name>Cis Center 2</Name>
+          <Address>10.255.10.10</Address>
+        </Host>
+        <Host>
+          <Name>CHUCITY1</Name>
+          <Address>10.255.10.13</Address>
+        </Host>
+        <Host>
+          <Name>CISTEK</Name>
+          <Address>10.255.10.1</Address>
+        </Host>
+        <Host>
+          <Name>CORE</Name>
+          <Address>10.255.10.254</Address>
+        </Host>
+        <Host>
+          <Name>Opsrum SECFOR</Name>
+          <Address>10.255.10.9</Address>
+        </Host>
+        <Host>
+          <Name>Radar</Name>
+          <Address>10.255.10.4</Address>
+        </Host>
+        <Host>
+          <Name>S2</Name>
+          <Address>10.255.10.6</Address>
+        </Host>
+        <Host>
+          <Name>SECFOR</Name>
+          <Address>10.255.10.3</Address>
+        </Host>
+        <Host>
+          <Name>Telt 2</Name>
+          <Address>10.255.10.8</Address>
+        </Host>
+        <Host>
+          <Name>Velfærd</Name>
+          <Address>10.255.10.7</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>sho version | include System serial</string>
+      </Commands>
+    </Script>
+  </Scripts>
+</ScriptCollection>

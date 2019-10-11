@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Scripts>
+    <Script>
+      <Name>Script 1</Name>
+      <Hosts>
+        <Host>
+          <Name>CISCenter2</Name>
+          <Address>10.255.10.2</Address>
+        </Host>
+        <Host>
+          <Name>NewHost1</Name>
+          <Address>NIL</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>Script 2</Name>
+      <Hosts>
+        <Host>
+          <Name>CISCenter</Name>
+          <Address>10.255.10.2</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+  </Scripts>
+</ScriptCollection>

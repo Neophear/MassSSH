@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Scripts>
+    <Script>
+      <Name>CISCenter</Name>
+      <Hosts>
+        <Host>
+          <Name>CISCenter</Name>
+          <Address>10.255.10.2</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/3-7, gi1/0/9, gi1/0/13, gi1/0/16</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>Velfærd</Name>
+      <Hosts>
+        <Host>
+          <Name>Velfærd</Name>
+          <Address>10.255.10.7</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/1, gi1/0/5, gi1/0/7, gi1/0/9-10, gi1/0/17-19</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>Telt 2</Name>
+      <Hosts>
+        <Host>
+          <Name>Telt 2</Name>
+          <Address>10.255.10.8</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/1-4, gi1/0/8-9, gi1/0/12-13</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>COC</Name>
+      <Hosts>
+        <Host>
+          <Name>COC</Name>
+          <Address>10.255.10.5</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/3, gi1/0/5-6, gi1/0/8-11</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>S2</Name>
+      <Hosts>
+        <Host>
+          <Name>S2</Name>
+          <Address>10.255.10.6</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/3-6, gi1/0/9, gi1/0/11</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>CISTEK</Name>
+      <Hosts>
+        <Host>
+          <Name>CISTEK</Name>
+          <Address>10.255.10.1</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int gi1/0/2</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>Radar</Name>
+      <Hosts>
+        <Host>
+          <Name>Radar</Name>
+          <Address>10.255.10.4</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/1-3</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+    <Script>
+      <Name>SECFOR</Name>
+      <Hosts>
+        <Host>
+          <Name>SECFOR</Name>
+          <Address>10.255.10.3</Address>
+        </Host>
+      </Hosts>
+      <Commands>
+        <string>conf t</string>
+        <string>int ra gi1/0/1-3</string>
+        <string>no shutdown</string>
+        <string>end</string>
+        <string>wri</string>
+      </Commands>
+    </Script>
+  </Scripts>
+</ScriptCollection>
